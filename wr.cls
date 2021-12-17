@@ -1,3 +1,7 @@
+% use option "en" or "nl" to change the language. Default is "en"
+% using \includemultilang{<nl document>}{<en document>} will include the dutch or english document depending on the language set.
+% using "nobox" will remove the checkboxes from subsubsections
+
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{wr}[2021/12/07 v0.9 Waardigheidsrichtlijn DZ Euros]
 
@@ -13,7 +17,7 @@
 
 \ProcessOptions \relax
 
-\LoadClass{article}
+\LoadClass[a4paper,titlepage]{article}
 
 % class code
 \RequirePackage[utf8]{inputenc}
