@@ -21,7 +21,6 @@
 
 % class code
 \RequirePackage[utf8]{inputenc}
-\RequirePackage[]{geometry}
 \RequirePackage{graphicx}
 \RequirePackage{hyperref}
 \RequirePackage[numbib,nottoc]{tocbibind}
